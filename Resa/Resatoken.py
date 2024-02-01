@@ -81,7 +81,7 @@ def send_reservation_request(place_number, start_time, end_time, person_count, e
     else:
         print(f"Reservation failed for {start_time} to {end_time}: ", response.status_code, response.text)
 
-pairs_file_path = '/Users/leo/Document/Addon/Resa/Ressources/ressources.json'
+pairs_file_path = '/Resa/Ressources/ressources.json'
 place_resource_pairs = load_place_resource_pairs(pairs_file_path)
 
 # Informations de réservation
