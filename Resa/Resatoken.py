@@ -3,6 +3,7 @@ from datetime import datetime, timezone, timedelta
 import json
 import urllib.parse
 
+# Token d'autentification
 def decode_token(encoded_token):
     # Vérifie si le token encodé est vide
     if not encoded_token.strip():
@@ -16,13 +17,10 @@ def decode_token(encoded_token):
         return json.loads(decoded_json)
     except json.JSONDecodeError as e:
         raise ValueError("Le token décodé n'est pas un JSON valide. Veuillez vérifier et réessayer.") from e
-
-
 def is_token_expired(token_info):
     # Vérifie si le token est expiré
     expiration_datetime = datetime.strptime(token_info[0]['expiration'], "%Y-%m-%dT%H:%M:%S.%fZ").replace(tzinfo=None)
     return expiration_datetime < datetime.now()
-    
 def get_user_device_token():
     # Essayez de lire le token et la date d'expiration depuis un fichier
     try:
@@ -87,12 +85,12 @@ pairs_file_path = '/Users/leo/Document/Addon/Resa/Ressources/ressources.json'
 place_resource_pairs = load_place_resource_pairs(pairs_file_path)
 
 # Informations de réservation
-email = 'alban.rousseau@etu.univ-nantes.fr'
+email = 'leo.rocheteau1@etu.univ-nantes.fr'
 person_count = 1
 user_device_token = get_user_device_token()
-place_number = "6068"
+place_number = "6073"
 
 # Effectuer les réservations pour la date du jour
-send_reservation_request(place_number, '11:00', '11:30', person_count, email, user_device_token, place_resource_pairs)
-#send_reservation_request(place_number, '14:30', '18:30', person_count, email, user_device_token, place_resource_pairs)
-#send_reservation_request(place_number, '19:00', '22:00', person_count, email, user_device_token, place_resource_pairs)
+send_reservation_request(place_number, '10:00', '14:00', person_count, email, user_device_token, place_resource_pairs)
+send_reservation_request(place_number, '14:30', '18:30', person_count, email, user_device_token, place_resource_pairs)
+send_reservation_request(place_number, '19:00', '22:00', person_count, email, user_device_token, place_resource_pairs)
