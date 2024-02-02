@@ -35,10 +35,12 @@ def send_reservation_request(start_time, end_time, person_count, email, user_dev
         print(f"Reservation failed for {start_time} to {end_time}: ", response.status_code, response.text)
 
 # Informations de réservation
-email = 'iklil.el-makhzoumi@etu.univ-nantes.fr'
+email = 'leo.rocheteau1@etu.univ-nantes.fr'
 user_device_token = '36e6ef75-e52c-41cf-8614-ff123b65e06e'
 person_count = 1
 
 # Effectuer les réservations pour la date du jour
-send_reservation_request('11:00', '11:30', person_count, email, user_device_token)
+send_reservation_request('10:00', '14:00', person_count, email, user_device_token)
+send_reservation_request('14:30', '18:30', person_count, email, user_device_token)
+send_reservation_request('19:00', '22:00', person_count, email, user_device_token)
 
