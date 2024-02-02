@@ -1,9 +1,9 @@
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 
 def send_reservation_request(start_time, end_time, person_count, email, user_device_token):
     # Obtenez la date actuelle formatée en YYYY-MM-DD
-    date = datetime.now().strftime('%Y-%m-%d')
+    date = (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d')
 
     payload = {
         "auth_type": None,
