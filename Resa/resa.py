@@ -26,7 +26,7 @@ def send_reservation_request(start_time, end_time, person_count, email, user_dev
         "Content-Type": "application/json",
     }
 
-    url = "https://reservation.affluences.com/api/reserve/49143"
+    url = "https://reservation.affluences.com/api/reserve/49142"
     response = requests.post(url, json=payload, headers=headers)
 
     if response.status_code == 200:
