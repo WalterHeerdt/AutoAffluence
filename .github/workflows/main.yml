@@ -16,4 +16,4 @@ jobs:
       - name: Install dependencies
         run: pip install requests
       - name: Run the script
-        run: python Resa/Resatoken.py
+        run: python Resa/resa.py
