@@ -1,0 +1,19 @@
+name: Reservation en avance
+
+on:
+  schedule:
+    - cron: '00 23 * * *' # Exécute à 23:00 UTC tous les jours
+
+jobs:
+  reservation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run the script
+        run: python Resa/resa.py
