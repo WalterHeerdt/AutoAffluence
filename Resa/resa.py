@@ -40,7 +40,7 @@ def send_reservation_requests(email_token_id_triples, start_time, end_time, pers
 # Liste de triples email-token-ID
 email_token_id_triples = [
     ('leo.rocheteau1@etu.univ-nantes.fr', '36e6ef75-e52c-41cf-8614-ff123b65e06e', '49142'),
-    
+    ('sixtine.audousset@etu.univ-nantes.fr', '99092a1a-a473-420c-a5fc-5853897490e7', '49127'),
     # Ajoutez plus de triples email-token-ID ici
 ]
 
