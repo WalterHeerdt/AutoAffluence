@@ -43,6 +43,8 @@ email_token_id_triples = [
     # Expiration: "2024-03-01"
     ('sixtine.audousset@etu.univ-nantes.fr', '99092a1a-a473-420c-a5fc-5853897490e7', '49127'),
     # Expiration: "2024-03-06"
+    ('clarisse.lubrano@etu.univ-nantes.fr', 'ab271895-d8d8-4225-9dc5-b2c24f312a02', '49129'),
+    # Expiration: "2024-03-07"
 ]
 
 person_count = 1
