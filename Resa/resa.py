@@ -37,6 +37,9 @@ def send_reservation_requests(email_token_id_triples, start_time, end_time, pers
         else:
             print(f"Reservation failed for {email} from {start_time} to {end_time} with ID {reserve_id}: ", response.status_code, response.text)
 
+current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+print(f"Current time: {current_time}")
+
 # Liste de triples email-token-ID
 email_token_id_triples = [
     ('leo.rocheteau1@etu.univ-nantes.fr', '36e6ef75-e52c-41cf-8614-ff123b65e06e', '49142'), 
