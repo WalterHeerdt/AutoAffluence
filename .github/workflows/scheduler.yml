@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '50 9 * * *'   # À 9h50 UTC
     - cron: '20 14 * * *'  # À 14h20 UTC
-    - cron: '50 18 * * *'  # À 18h50 UTC
+    - cron: '55 17 * * *'  # À 18h50 UTC
 
 jobs:
   make_post_request:
