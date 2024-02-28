@@ -2,7 +2,7 @@ name: Validation
 
 on:
   schedule:
-    - cron: '50 8 * * *'   # À 9h50 UTC+1
+    - cron: '50 8 * * 1-6'   # À 9h50 UTC+1
     - cron: '20 13 * * *'  # À 14h20 UTC+1
     - cron: '50 17 * * *'  # À 18h50 UTC+1
 
