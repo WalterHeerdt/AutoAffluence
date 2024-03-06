@@ -50,16 +50,16 @@ email_token_id_triples = [
     # Expiration: "2024-03-07"
     ('louis.savaete@etu.univ-nantes.fr', '98f40772-132e-4102-8a18-60cbff09ad60', '49127'),
     # Expiration: "2024-03-07"
-    ('alban.rousseau@etu.univ-nantes.fr', 'be95c0e5-b80d-44d0-a54d-a1fe7851e4ef', '49139'),
-    # Expiration: "2024-03-02"
+    ('alban.rousseau@etu.univ-nantes.fr', '48d7addc-6240-4dc7-8f77-a8eb02f3ee84', '49139'),
+    # Expiration: "2024-04-05"
     ('louise.beaugendre@etu.univ-nantes.fr', 'e80ef31a-73c2-4733-a60c-4063ad2f32c2', '49141'),
     # Expiration: "2024-03-08"
     ('margaux.ouertal@etu.univ-nantes.fr', 'fb20d9e3-4c63-4483-9cf2-1096eeb1c8a5', '49137'),
     # Expiration: "2024-03-09"
     ('castille.de-lavenne-de-la-montoise@etu.univ-nantes.fr', 'c61fa463-1dae-4354-900d-c2da142099f5', '49140'),
     # Expiration: "2024-03-22"
-    ('iklil.el-makhzoumi@etu.univ-nantes.fr', 'c61fa463-1dae-4354-900d-c2da142099f5', '49143'),
-    # Expiration: "2024-03-29"
+    ('iklil.el-makhzoumi@etu.univ-nantes.fr', 'b444a245-d6af-42c6-9042-78c599d10176', '49143'),
+    # Expiration: "2024-04-05"
 
 ]
 
