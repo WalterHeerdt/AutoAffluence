@@ -27,6 +27,6 @@ jobs:
           -H "Sec-Fetch-Mode: cors" \
           -H "Sec-Fetch-Site: same-site" \
           -H "Sec-GPC: 1" \
-          -d "{\"validationCode\":\"8UPY\",\"email\":\"$EMAIL\"}"
+          -d "{\"validationCode\":\"O6CO\",\"email\":\"$EMAIL\"}"
           echo "Request sent for $EMAIL"
         done
