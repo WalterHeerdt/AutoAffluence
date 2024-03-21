@@ -15,7 +15,7 @@ jobs:
 
     - name: Send POST Requests for Multiple Emails
       run: |
-        EMAILS=("leo.rocheteau1@etu.univ-nantes.fr" "alban.rousseau@etu.univ-nantes.fr" "louise.beaugendre@etu.univ-nantes.fr" "fanny.deckert@etu.univ-nantes.fr")
+        EMAILS=("leo.rocheteau1@etu.univ-nantes.fr" "margaux.ouertal@etu.univ-nantes.fr" "alban.rousseau@etu.univ-nantes.fr" "louise.beaugendre@etu.univ-nantes.fr" "fanny.deckert@etu.univ-nantes.fr")
         for EMAIL in "${EMAILS[@]}"
         do
           curl -X POST "https://reservation.affluences.com/api/validateReservation" \
