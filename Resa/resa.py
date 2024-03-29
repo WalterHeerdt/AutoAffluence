@@ -56,8 +56,8 @@ email_token_id_triples = [
     # Expiration: "2024-04-11"
     #('margaux.ouertal@etu.univ-nantes.fr', 'fb20d9e3-4c63-4483-9cf2-1096eeb1c8a5', '49137'),
     # Expiration: "2024-03-09"
-    #('castille.de-lavenne-de-la-montoise@etu.univ-nantes.fr', 'c61fa463-1dae-4354-900d-c2da142099f5', '49140'),
-    # Expiration: "2024-03-22"
+    ('castille.de-lavenne-de-la-montoise@etu.univ-nantes.fr', 'b41e7c38-a395-4fb5-9b23-44e62adf8d95', '49140'),
+    # Expiration: "2024-04-28"
     ('iklil.el-makhzoumi@etu.univ-nantes.fr', 'b444a245-d6af-42c6-9042-78c599d10176', '49143'),
     # Expiration: "2024-04-05"
 
