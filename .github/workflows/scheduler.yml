@@ -2,9 +2,9 @@ name: Validation
 
 on:
   schedule:
-    - cron: '50 9 * * 1-6'   # À 9h50 UTC
-    - cron: '20 14 * * 1-6'  # À 14h20 UTC
-    - cron: '50 18 * * *'  # À 18h50 UTC
+    - cron: '50 7 * * 1-6'   # À 9h50 UTC+2
+    - cron: '20 12 * * 1-6'  # À 14h20 UTC+2
+    - cron: '50 16 * * *'  # À 18h50 UTC+2
 
 jobs:
   make_post_request:
