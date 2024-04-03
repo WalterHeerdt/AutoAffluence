@@ -2,9 +2,9 @@ name: Daily Reservation Script
 
 on:
   schedule:
-    - cron: '00 22 * * *' # Exécute à 00:00 UTC+2 tous les jours
-    - cron: '30 22 * * *' # Exécute à 23:59 UTC+2 tous les jours
-    - cron: '00 23 * * *' # Exécute à 23:59 UTC+2 tous les jours
+    - cron: '45 23 * * *' # Exécute à 00:00 UTC+2 tous les jours
+    - cron: '00 23 * * *' # Exécute à 23:00 UTC+2 tous les jours
+    - cron: '00 00 * * *' # Exécute à 23:00 UTC+2 tous les jours
 
 jobs:
   reservation:
