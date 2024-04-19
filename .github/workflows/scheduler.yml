@@ -27,7 +27,7 @@ jobs:
             -H "Sec-Fetch-Mode: cors" \
             -H "Sec-Fetch-Site: same-site" \
             -H "Sec-GPC: 1" \
-            -d "{\"validationCode\":\"KG50\",\"email\":\"$EMAIL\"}")
+            -d "{\"validationCode\":\"V93Y\",\"email\":\"$EMAIL\"}")
             echo "Request sent for $EMAIL"
             if [[ "$RESPONSE" == *"wrong_validation_code"* ]]; then
               echo "::error ::Validation error detected for $EMAIL"
