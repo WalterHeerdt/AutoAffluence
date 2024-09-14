@@ -68,5 +68,5 @@ email_token_id_triples = [
 person_count = 1
 
 # Effectuer les réservations pour chaque triple
-for start_time, end_time in [('10:00', '14:00'), ('14:30', '18:30'), ('18:45', '21:45'), ('19:00', '21:30')]:
+for start_time, end_time in [('10:00', '14:00'), ('14:30', '18:30'), ('17:45', '21:45'), ('18:45', '21:45'), ('19:00', '21:30')]:
     send_reservation_requests(email_token_id_triples, start_time, end_time, person_count)
