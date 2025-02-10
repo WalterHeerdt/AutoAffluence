@@ -42,7 +42,7 @@ print(f"Current time: {current_time}")
 
 # Liste de triples email-token-ID
 email_token_id_triples = [
-    ('leo.rocheteau1@etu.univ-nantes.fr', '26983588-ca18-4f0f-b89e-4407e960f0db', '49239'), 
+    ('leo.rocheteau1@etu.univ-nantes.fr', 'a93acb7d-a0b4-4bd6-b824-7da1d92b1e2d', '49239'), 
     # Expiration: "2025-10-02"
     ('donatien.merlant@etu.univ-nantes.fr', '12f6218f-eb7e-451d-b689-47dd07c15ca0', '49240'), 
     # Expiration: "2024-11-11"
