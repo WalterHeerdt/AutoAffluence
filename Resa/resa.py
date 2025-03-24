@@ -44,16 +44,16 @@ print(f"Current time: {current_time}")
 email_token_id_triples = [
     ('leo.rocheteau1@etu.univ-nantes.fr', 'cfc91a97-f20c-4dd7-901a-dc2eb6d505e5', '49239'), 
     # Expiration: "2025-10-02"
-    ('donatien.merlant@etu.univ-nantes.fr', '12f6218f-eb7e-451d-b689-47dd07c15ca0', '49240'), 
+    #('donatien.merlant@etu.univ-nantes.fr', '12f6218f-eb7e-451d-b689-47dd07c15ca0', '49240'), 
     # Expiration: "2024-11-11"
-    ('gabriel.vlaeminck@etu.univ-nantes.fr', '889a1d07-8cc4-4427-bd8f-88f106744cae', '49237'),
+    ('gabriel.vlaeminck@etu.univ-nantes.fr', 'efd188cb-daf3-4c24-bfb0-5e41460e469e', '49237'),
     # Expiration: "2024-03-06"
-    ('louis.boutin2@etu.univ-nantes.fr', 'a47c02f1-9609-4133-aae6-221d042f5fda', '49238'),
+    #('louis.boutin2@etu.univ-nantes.fr', 'a47c02f1-9609-4133-aae6-221d042f5fda', '49238'),
     # Expiration: "2024-03-06"
 
     #('fanny.deckert@etu.univ-nantes.fr', 'e90ff558-f905-4f1f-a463-0695bcb6754a', '49364'), 
     # Expiration: "2024-05-06"
-    ('sixtine.audousset@etu.univ-nantes.fr', '99092a1a-a473-420c-a5fc-5853897490e7', '49128'),
+    #('sixtine.audousset@etu.univ-nantes.fr', '99092a1a-a473-420c-a5fc-5853897490e7', '49128'),
     # Expiration: "2024-03-06"
     #('clarisse.lubrano@etu.univ-nantes.fr', 'ab271895-d8d8-4225-9dc5-b2c24f312a02', '49129'),
     # Expiration: "2024-03-07"
