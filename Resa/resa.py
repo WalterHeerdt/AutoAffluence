@@ -46,7 +46,7 @@ email_token_id_triples = [
     # Expiration: "2025-10-02"
     #('donatien.merlant@etu.univ-nantes.fr', '12f6218f-eb7e-451d-b689-47dd07c15ca0', '49240'), 
     # Expiration: "2024-11-11"
-    ('gabriel.vlaeminck@etu.univ-nantes.fr', 'a2398bd7-b409-438b-925b-18ceaf658de9', '49237'),
+    ('gabriel.vlaeminck@etu.univ-nantes.fr', '96130479-1ca2-4771-bcb4-b9b4f823c900', '49237'),
     # Expiration: "2024-03-06"
     #('louis.boutin2@etu.univ-nantes.fr', 'a47c02f1-9609-4133-aae6-221d042f5fda', '49238'),
     # Expiration: "2024-03-06"
